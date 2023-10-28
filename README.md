@@ -30,6 +30,7 @@ The process manager has the following functionalities:
 ## **Running the Program**
 
 All of the libraries used in the program are included in the Python standard library, except one – psutil. To install psutil, run the following command in the terminal: `pip install psutil`
+
 To run the program, download the source file, which includes all of the source code of the project, including the log file, and run main.py by using the Python interpreter.
 
 
