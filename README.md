@@ -50,6 +50,7 @@ The process manager uses a command-line interface to interact with the user. The
   10. Producer-consumer problem
   11. Reader-writer problem
   12. Exit
+
 The user can choose any of the options by entering the corresponding number of the choice. This is what the CLI looks like:
 
 <img width="506" alt="Screenshot 2023-10-28 at 5 11 12 PM" src="https://github.com/lashakal/Process-Manager-with-Proces-Synchronization/assets/111999712/61bf7426-c49b-46a7-a061-0eb7fd8a9b75">
