@@ -8,20 +8,20 @@ This project implements a process manager, with an emphasis on process synchroni
 The process manager has the following functionalities:
 
 1.	Process creation – the user can choose to create a new child process, in which case the program will call fork() system call.
-2.	Process management – the user can tell the program to:
-  a.	List all running processes, displaying their process ID, process name, parent process ID, and state.
+2.	Process management – the user can tell the program to:\
+  a.	List all running processes, displaying their process ID, process name, parent process ID, and state.\
   b.	Terminate a running process by entering its process ID.
-3.	Threading – the user can tell the program to:
-  a.	Create a new thread.
-  b.	Terminate a newly created thread.
+3.	Threading – the user can tell the program to:\
+  a.	Create a new thread.\
+  b.	Terminate a newly created thread.\
   c.	Synchronize multiple threads - display a demonstration of thread synchronization.
-4.	Inter-Process Communication (IPC) – the program implements two types of IPC:
-  a.	IPC via pipe – allowing users to see how two processes communicate with each other via pipe. The user can enter a message that will be sent by a sender process and received by a receiver process.
+4.	Inter-Process Communication (IPC) – the program implements two types of IPC:\
+  a.	IPC via pipe – allowing users to see how two processes communicate with each other via pipe. The user can enter a message that will be sent by a sender process and received by a receiver process.\
   b.	IPC via shared memory – the program employs a shared array of size 5, and the user can make a process write to the shared memory, and a process read from the shared memory.
-5.	Process Synchronization – the program provides demonstrations of:
-  a.	Mutex – the users can increment or decrement a shared value using a mutex.
-  b.	Semaphore – the users can increment or decrement a shared value using a semaphore.
-  c.	The use of synchronization mechanisms to solve the Producer-Consumer Problem.
+5.	Process Synchronization – the program provides demonstrations of:\
+  a.	Mutex – the users can increment or decrement a shared value using a mutex.\
+  b.	Semaphore – the users can increment or decrement a shared value using a semaphore.\
+  c.	The use of synchronization mechanisms to solve the Producer-Consumer Problem.\
   d.	The use of synchronization mechanisms to solve the Reader-Writer Problem.
 6.	Command-line interface (CLI) allows users to interact with the process manager and choose what to do using a clear and informative syntax and options.
 7.	Logging and reporting – the process manager implements a logging mechanism and logs all significant events to the log file. To help the user track the execution of processes and threads, the program also displays every important detail to the user using CLI.
