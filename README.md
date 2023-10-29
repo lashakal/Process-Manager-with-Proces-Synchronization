@@ -1,6 +1,6 @@
 # **Advanced Process Manager with Process Synchronization**
 
-This project implements a process manager, with an emphasis on process synchronization. The process manager allows users to create, manage, synchronize, and interact with processes in a multi-threaded environment. It provides a command-line interface and uses system calls for process and thread control.
+This project implements a process manager with an emphasis on process synchronization. The process manager allows users to create, manage, synchronize, and interact with processes in a multi-threaded environment. It provides a command-line interface and uses system calls for process and thread control.
 
 
 ## **Functionalities of the Process Manager**
